@@ -1,6 +1,6 @@
 import os
 from flask import Flask
-import auth, mailing_list, embed
+from . import auth, mailing_list, embed
 
 # create and configure the app
 app = Flask(__name__, instance_relative_config=True)
